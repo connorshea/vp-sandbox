@@ -19,14 +19,14 @@ importers:
   .:
     devDependencies:
       typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
+        specifier: ^6.0.2
+        version: 6.0.2
       vite:
         specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3)'
+        version: '@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2)'
       vite-plus:
         specifier: 'catalog:'
-        version: 0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3))(typescript@5.9.3)
+        version: 0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2))(typescript@6.0.2)
 
 packages:
 
@@ -665,8 +665,8 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -841,7 +841,7 @@ snapshots:
 
   '@types/deep-eql@4.0.2': {}
 
-  '@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3)':
+  '@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2)':
     dependencies:
       '@oxc-project/runtime': 0.122.0
       '@oxc-project/types': 0.122.0
@@ -849,7 +849,7 @@ snapshots:
       postcss: 8.5.8
     optionalDependencies:
       fsevents: 2.3.3
-      typescript: 5.9.3
+      typescript: 6.0.2
 
   '@voidzero-dev/vite-plus-darwin-arm64@0.1.15':
     optional: true
@@ -869,11 +869,11 @@ snapshots:
   '@voidzero-dev/vite-plus-linux-x64-musl@0.1.15':
     optional: true
 
-  '@voidzero-dev/vite-plus-test@0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3))(typescript@5.9.3)':
+  '@voidzero-dev/vite-plus-test@0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2))(typescript@6.0.2)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@types/chai': 5.2.3
-      '@voidzero-dev/vite-plus-core': 0.1.15(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-core': 0.1.15(typescript@6.0.2)
       es-module-lexer: 1.7.0
       obug: 2.1.1
       pixelmatch: 7.1.0
@@ -883,7 +883,7 @@ snapshots:
       tinybench: 2.9.0
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
-      vite: '@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3)'
+      vite: '@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2)'
       ws: 8.20.0
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
@@ -1095,13 +1095,13 @@ snapshots:
 
   totalist@3.0.1: {}
 
-  typescript@5.9.3: {}
+  typescript@6.0.2: {}
 
-  vite-plus@0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3))(typescript@5.9.3):
+  vite-plus@0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2))(typescript@6.0.2):
     dependencies:
       '@oxc-project/types': 0.122.0
-      '@voidzero-dev/vite-plus-core': 0.1.15(typescript@5.9.3)
-      '@voidzero-dev/vite-plus-test': 0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@5.9.3))(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-core': 0.1.15(typescript@6.0.2)
+      '@voidzero-dev/vite-plus-test': 0.1.15(@voidzero-dev/vite-plus-core@0.1.15(typescript@6.0.2))(typescript@6.0.2)
       cac: 7.0.0
       cross-spawn: 7.0.6
       jsonc-parser: 3.3.1
