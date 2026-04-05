@@ -1,8 +1,8 @@
 #!/bin/bash
 # .claude/hooks/enforce-vp-config.sh
-# Block creation of standalone oxlint/oxfmt config files — configure in vite.config.ts instead.
+# Block creation/editing of standalone oxlint/oxfmt config files.
 INPUT=$(cat)
-FILE_PATH=$(echo "$INPUT" | jq -r '.tool_input.file_path // .tool_input.content // empty')
+FILE_PATH=$(echo "$INPUT" | jq -r '.tool_input.file_path // empty')
 
 BASENAME=$(basename "$FILE_PATH" 2>/dev/null)
 
